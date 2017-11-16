@@ -19,6 +19,11 @@
 (require 'elm-config)
 (require 'reasonml-config)
 
+;; tuareg and merlin config file. Both are installed via opam
+(require 'opam-user-setup)
+
+(require 'ocamlformat-config)
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

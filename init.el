@@ -19,9 +19,8 @@
 (require 'elm-config)
 (require 'reasonml-config)
 
-;; tuareg and merlin config file. Both are installed via opam
-(require 'opam-user-setup)
-
+;; Modes installed via opam
+(require 'opam-user-setup)    ;; tuareg and merlin 
 (require 'ocamlformat-config)
 
 

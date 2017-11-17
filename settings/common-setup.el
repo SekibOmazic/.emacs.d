@@ -41,5 +41,8 @@
 ;; open shell in the same frame
 (push (cons "\\*shell\\*" display-buffer--same-window-action) display-buffer-alist)
 
+;; make ibuffer default
+(defalias 'list-buffers 'ibuffer-other-window)
+
 
 (provide 'common-setup)

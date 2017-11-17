@@ -12,6 +12,7 @@
 
 
 ;; Configs
+(require 'which-key-config)
 (require 'exec-path-config)
 (require 'company-config)
 (require 'flycheck-config)

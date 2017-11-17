@@ -13,6 +13,7 @@
 
 ;; Configs
 (require 'which-key-config)
+(require 'ace-window-config)
 (require 'exec-path-config)
 (require 'company-config)
 (require 'flycheck-config)

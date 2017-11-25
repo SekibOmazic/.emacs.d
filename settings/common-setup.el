@@ -35,7 +35,7 @@
 
 
 ;; do not emphasize the text between parens
-(setq show-paren-style 'parenthesis)
+(defvar show-paren-style 'parenthesis)
 
 
 ;; open shell in the same frame

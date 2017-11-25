@@ -1,13 +1,9 @@
 ;; flycheck
 (use-package flycheck
   :ensure t
-  ;;:init
-  ;;(global-flycheck-mode t))
-  :config (setq flycheck-command-wrapper-function
-		(lambda (command) command)
-		flycheck-executable-find
-		(lambda (command) command))
-;;  (global-flycheck-mode))
+  :init (global-flycheck-mode))
+  :config
+  (setq-default flycheck-disabled-checkers '(emacs-lisp-checkdoc))
 )
 
 (provide 'flycheck-config)

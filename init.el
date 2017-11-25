@@ -1,5 +1,5 @@
 ;; define settings directory. here we put all config files
-(setq settings-dir
+(defvar settings-dir
       (expand-file-name "settings" user-emacs-directory))
 
 

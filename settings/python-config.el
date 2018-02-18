@@ -16,7 +16,11 @@
     (define-key global-map (kbd "RET") 'newline-and-indent)
 
     (elpy-enable)
-    (elpy-use-ipython)
+
+    (setq python-shell-interpreter "jupyter"
+	  python-shell-interpreter-args "console --simple-prompt")
+    
+;;    (elpy-use-ipython)
 
     ;; jedi is great
     ;;(setq elpy-rpc-backend "jedi")))

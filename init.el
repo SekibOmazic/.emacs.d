@@ -24,7 +24,7 @@
 
 ;; Modes installed via opam
 (require 'opam-user-setup)    ;; tuareg and merlin 
-(require 'ocamlformat-config)
+;;(require 'ocamlformat-config)
 
 
 

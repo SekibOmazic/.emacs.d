@@ -21,6 +21,7 @@
 (require 'elm-config)
 (require 'reasonml-config)
 (require 'python-config)
+(require 'clojure-config)
 
 ;; Modes installed via opam
 (require 'opam-user-setup)    ;; tuareg and merlin 
